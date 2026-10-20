@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-demo/
+*.tsbuildinfo
+
+# Secrets — never commit your J-Quants API key
+.env.local
+.env.*.local
+
+# Local J-Quants data cache (your data stays on your PC)
+.cache/
+
+# Test output
+coverage/
+playwright-report/
+test-results/
+blob-report/
+
+# Local tooling
+.claude/
+
+# Logs / OS / editor
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
